@@ -1,0 +1,75 @@
+.sign-up-container{
+    width: 500px;
+    height: 500px;
+    padding: 0px;
+    background: #fefefe;
+    margin: 0 auto;
+    border: 1px solid #c4cddb;
+    border-top-color: #d3dbde;
+    border-bottom-color: #bfc9dc;
+    box-shadow: 0 1px 1px #ccc;
+    border-radius: 5px;
+    position: relative;
+    transition: all 0.5s ease-in;
+}
+h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    background: #eff4f7;
+    border-bottom: 1px solid #dde0e7;
+    box-shadow: 0 -1px 0 #fff inset;
+    border-radius: 5px 5px 0 0;
+    text-shadow: 1px 1px 0 #fff;
+}
+.email-field-container{
+    text-align: center;
+}
+
+.email-field-container input {
+    padding: 10px 10px;
+    border: 1px solid #d5d9da;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #e8e9eb inset;
+    width: 328px;
+    font-size: 1em;
+    outline: 0;
+    margin: 10px;
+}
+
+.password-field-container{
+    text-align: center;
+}
+
+.password-field-container input {
+    padding: 10px 10px;
+    border: 1px solid #d5d9da;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #e8e9eb inset;
+    width: 328px;
+    font-size: 1em;
+    outline: 0;
+    margin: 10px;
+}
+
+.checkbox-container{
+    text-align: center;
+}
+
+.submit-button{
+    text-align: center;
+    margin: 10px;
+}
+
+.validation-error{
+    text-align: center;
+    margin-top: 100px;
+    visibility: visible;
+    color: red;
+
+}
+
+.email-field-container  > * {
+
+}
